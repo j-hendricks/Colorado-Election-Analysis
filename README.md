@@ -11,14 +11,22 @@ The Colorado Board of Elections has assigned our client, Tom, to perform an audi
 * Number and percentage of votes from each county
 * Largest county turnout
 
-Using Python, each of these requirements were met by printing this data to the command line and saving the data to a txt file. Click !(here)[PyPoll_Challenge.py] for the script. For the election data, click (here)[election_results.csv].
+Using Python, each of these requirements were met by printing this data to the command line and saving the data to a txt file. Click ![here](PyPoll_Challenge.py) for the script. For the election data, click [here](election_results.csv).
 
 ## Election Audit Results
 
-As seen in the command line output, Diana DeGette won by almost 200,000 votes and received 73.8% of the votes. Denver had the largest turnout at the election, making up 82.8% of the total votes. 
+As seen in both the text file and the command line output:
+
+* Diana DeGette won by a large margin, with 73.8% of the votes 
+* Raymon Anthony Doane received the least votes at 3.1%
+* Denver had the largest turnout at the election, making up 82.8% of the total votes
+* Arapahoe had the lowest turnout, making up 6.7% of the total votes
 
 ![command line output](Command-Line-Results.png)
 ![txt file output](Text-File-Results.png)
 
 ## Election Audit Summary
-Political campaigns would have the greatest influence on elections by advertising in Denver County, where most of the voters live. This project could provide more insight by finding each county's percentage of votes for each candidate. This additional data could show the political leanings of each county. 
+
+Because the code is well-written, the Board of Elections of any State could use this script for their elections. The only necessary changes would be to the names of the files to be read or edited. Because lists and for-loops were used, the data could be from more than 3 counties and be composed of more than 3 candidates.
+
+Political campaigns would have the greatest influence on elections by advertising in Denver County, where most of the voters live. This project could provide more insight by finding the percentage of votes for each candidate in each county. This additional data would show the political leanings of each county. Since we know the total votes for each county, it would also be helpful to know the total population of each county. That way, the Board of Elections could determine the political involvement of each county as well as the overall political involvement of the three counties combined. 
