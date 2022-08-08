@@ -10,7 +10,7 @@ The Colorado Board of Elections has assigned our client, Tom, to perform an audi
 * Number and percentage of votes from each county
 * Largest county turnout
 
-Using Python, each of these requirements were met by printing this data to the command line and saving the data to a txt file. Click ![here](PyPoll_Challenge.py) for the script. For the election data, click ![here](election_results.csv). 
+Using Python, each of these requirements were met by printing this data to the command line and saving the data to a txt file. Click ![here](py/PyPoll_Challenge.py) for the script. For the election data, click ![here](resources/election_results.csv). 
 
 ## Election Audit Results
 
@@ -21,8 +21,8 @@ As seen in both the text file and the command line output:
 * Denver had the largest turnout at the election, making up 82.8% of the total votes
 * Arapahoe had the lowest turnout, making up 6.7% of the total votes
 
-![command line output](Command-Line-Results.png)
-![txt file output](Text-File-Results.png)
+![command line output](images/Command-Line-Results.png)
+![txt file output](images/Text-File-Results.png)
 
 ## Election Audit Summary
 
